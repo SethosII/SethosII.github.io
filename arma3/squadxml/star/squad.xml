@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE squad SYSTEM "squad.dtd">
+<?xml-stylesheet href="squad.xsl?" type="text/xsl"?>
+<squad nick="STAR">
+	<name>The STARs</name>
+	<email></email>
+	<web></web>
+	<picture>squad.paa</picture>
+	<title>The STARs</title>
+	<member id="76561198078888538" nick="Sethos II">
+		<name>Sethos II</name>
+		<email></email>
+		<icq></icq>
+		<remark>That's me!</remark>
+	</member>
+</squad>
