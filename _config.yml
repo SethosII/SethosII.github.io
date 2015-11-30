@@ -1,0 +1,12 @@
+# Site settings
+title: Sethos II
+description: Sethos II's GitHub.io site
+baseurl: ""
+url: "https://SethosII.github.io" # the base hostname & protocol for your site
+github_username: SethosII
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM

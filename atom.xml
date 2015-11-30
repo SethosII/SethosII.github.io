@@ -1,0 +1,26 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title | xml_escape }}</title>
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  <link type="application/atom+xml" href="{{ "/atom.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self"/>
+  <link type="text/html" href="{{ site.url }}{{ site.baseurl }}/" rel="alternate"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}{{ site.baseurl }}/</id>
+  <generator>Jekyll v{{ jekyll.version }}</generator>
+  {% for post in site.posts limit:10 %}
+    <entry>
+      <title>{{ post.title }}</title>
+      <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
+      <updated>{{ post.date | date_to_xmlschema }}</updated>
+      <id>{{ post.url | prepend: site.baseurl | prepend: site.url }}</id>
+      <content type="text">{{ post.content | strip_html | truncatewords:50 }}</content>
+      <author>
+        <name>{{ post.author | xml_escape }}</name>
+      </author>
+    </entry>
+  {% endfor %}
+</feed>
+
