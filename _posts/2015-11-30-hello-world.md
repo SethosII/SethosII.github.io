@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World!"
-date:   2015-11-30 22:20:00
+date:   2015-11-30 22:20:00 +0100
 author: Paul Jähne
 ---
 
