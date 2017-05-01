@@ -4,13 +4,25 @@ title: About
 permalink: /about/
 ---
 
-P a u l  J ä h n e
-S c h u l s t r a ß e  1 2
-0 4 6 8 7  T r e b s e n
-G e r m a n y
-p a u l . j a e h n e @ g m x . d e
+Paul Jähne  
+Johannisplatz 3  
+04103 Leipzig  
+Germany
+
+<p>
+  <script language="javascript">
+    a = "paul";
+    b = "jaehne";
+    c = "@";
+    d = "gmx";
+    e = "de";
+    document.write("<div>" + a + "." + b + c + d + "." + e + "</div>");
+  </script>
+  <noscript>
+    <a href="mailto:bat.man@waynecorp.com">bat.man@waynecorp.com</a> Please enable JavaScript!
+  </noscript>
+</p>
 
 # Technical stuff
 
 This website was created with [Jekyll](http://jekyllrb.com). The theme is based on the standard Jekyll theme.
-
