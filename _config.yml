@@ -1,5 +1,18 @@
 # Site settings
 title: "Sethos II"
+email: >
+  <script language="javascript">
+    a = "paul";
+    b = "jaehne";
+    c = "@";
+    d = "gmx";
+    e = "de";
+    f = a + "." + b + c + d + "." + e;
+    document.write("<a href=\"mailto:" + f + "\">" + f + "</a>");
+  </script>
+  <noscript>
+    <a href="mailto:bat.man@waynecorp.com">bat.man@waynecorp.com</a> Please enable JavaScript!
+  </noscript>
 description: "Sethos II's GitHub.io site"
 baseurl: ""
 url: "https://SethosII.github.io" # the base hostname & protocol for your site

@@ -10,19 +10,9 @@ Johannisplatz 3
 Germany
 
 <p>
-  <script language="javascript">
-    a = "paul";
-    b = "jaehne";
-    c = "@";
-    d = "gmx";
-    e = "de";
-    document.write("<div>" + a + "." + b + c + d + "." + e + "</div>");
-  </script>
-  <noscript>
-    <a href="mailto:bat.man@waynecorp.com">bat.man@waynecorp.com</a> Please enable JavaScript!
-  </noscript>
+  {{ site.email }}
 </p>
 
 # Technical stuff
 
-This website was created with [Jekyll](http://jekyllrb.com). The theme is based on the standard Jekyll theme.
+This website was created with [Jekyll](http://jekyllrb.com). The theme is based on the standard Jekyll theme [minima](https://github.com/jekyll/minima/).
